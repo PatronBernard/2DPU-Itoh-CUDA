@@ -1,0 +1,24 @@
+﻿Build started 26/04/2013 15:25:25.
+     1>Project "C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\2D_CUDA_Unwrapper\2D_CUDA_Unwrapper.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_CRT_SECURE_NO_WARNINGS /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" /I. /FIcuda_runtime.h /c C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\2D_CUDA_Unwrapper\main.cu 
+       CudaBuild:
+         Compiling CUDA source file main.cu...
+         cmd.exe /C "C:\Users\janmorez\AppData\Local\Temp\tmpf4c8f38cd97d4edfa1b372b21b6d97d9.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_CRT_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\main.cu.obj" "C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\2D_CUDA_Unwrapper\main.cu"
+         
+         C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\2D_CUDA_Unwrapper>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\include"  -G   --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g   -D_CRT_SECURE_NO_WARNINGS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o "Debug\main.cu.obj" "C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\2D_CUDA_Unwrapper\main.cu" 
+         tmpxft_00001dfc_00000000-12_main.ii
+     1>C:/Users/janmorez/Dropbox/Public/2D_CUDA_UNWRAPPER/2D_CUDA_Unwrapper/2D_CUDA_Unwrapper/main.cu(77): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\Debug\2D_CUDA_Unwrapper.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2D_CUDA_Unwrapper.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\Debug\2D_CUDA_Unwrapper.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\Debug\2D_CUDA_Unwrapper.lib" /MACHINE:X86 Debug\main.cu.obj
+         Debug\Functions.obj
+         LINK : C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\Debug\2D_CUDA_Unwrapper.exe not found or not built by the last incremental link; performing full link
+         2D_CUDA_Unwrapper.vcxproj -> C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\Debug\2D_CUDA_Unwrapper.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\Debug\2D_CUDA_Unwrapper.exe;#1" /manifest Debug\2D_CUDA_Unwrapper.exe.intermediate.manifest
+     1>Done Building Project "C:\Users\janmorez\Dropbox\Public\2D_CUDA_UNWRAPPER\2D_CUDA_Unwrapper\2D_CUDA_Unwrapper\2D_CUDA_Unwrapper.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.24
